@@ -5,6 +5,7 @@ alias gc='git commit -am '
 alias gp='git push'
 alias gd='git diff'
 alias go='git checkout '
+alias cd..='cd .. '
 
 alias got='git '
 alias get='git '
@@ -50,7 +51,7 @@ function git_branch {
 
 LS_COLORS="di=1;32"
 
-PS1="\e[0;33m\t \e[0;32m\d\e[m\e[m \e[0;31m \h\e[m \e[0;36m\W\e[m ⚡️ "
+PS1="\e[0;32m\d\e[m\e[m \e[0;31m \h\e[m \e[0;36m\W\e[m ⚡️ "
 PS1+="\[\$(git_color)\]"
 PS1+="\$(git_branch)"
 PS1+="\[$COLOR_RESET\] "
