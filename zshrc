@@ -10,4 +10,4 @@ WHITE="%F{white}"
 RESET="%f"
 
 # Set the PROMPT variable with double quotes
-PROMPT="${YELLOW}%D${RESET} ${WHITE}%D{%I:%M %p}${RESET} ${RED}%n${RESET}☠️ ${GREEN}%m${RESET}${YELLOW}⚡${CYAN}%3d${RESET}✌️  ~ "
+PROMPT="${YELLOW}%D{%m-%d-%Y}${RESET} ${WHITE}%D{%I:%M %p}${RESET} ${RED}%n${RESET}☠️ ${GREEN}%m${RESET}${YELLOW}⚡${CYAN}%3d${RESET}✌️  ~ "
